@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/client-sdk-java",
+  "repository_id": 465540325,
+  "date": "2026-10-03",
+  "source_sha": "959a1dd3e1160c1b13cdda8e832befb08d1e0437",
+  "entries": [
+    {
+      "original_path": ".github/workflows/gradle.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/gradle.yml",
+      "source_blob_sha": "4c3d8d8798355d78fe45f253910d3b6f3a6cc8a1",
+      "sha256": "455e6f60e9f2cdeaab49d86bb16d8c5d34d395b705f139c719a4be74392f8e8f",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/client-sdk-java",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/publish.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/publish.yml",
+      "source_blob_sha": "c56ead57a566505a36a3d26bd18fdf4ff935fc47",
+      "sha256": "c2cdcf29b6a0c5a00dc4d94d65234179f26d59e404c811c007d2b063a76845b5",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/client-sdk-java",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "GPG_PASSPHRASE",
+        "GPG_PRIVATE_KEY",
+        "OSSRH_TOKEN",
+        "OSSRH_USERNAME"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/release.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/release.yml",
+      "source_blob_sha": "a89f1314c5704e0f9cf91e21162e5cbe50556a85",
+      "sha256": "49f0b4c859d82385b7084ad9c64fbbcbc50075e443b57a9b48edc0878c5e69b8",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/client-sdk-java",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "OSSRH_TOKEN",
+        "OSSRH_USERNAME"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [],
+  "retained_dependency_references": [
+    {
+      "original_path": "build.gradle",
+      "source_blob_sha": "5e5fe3ae270dcf9865dde00b951bebffec9cc010",
+      "sha256": "46c67fa06445f71d5ca88af9a1a8a6eb5c6b062b8f842d92d3ff0cf24fd4e908",
+      "original_retained": true,
+      "reason": "Shared build source already preserved in original Git history. Credential filter conservatively flags property-lookup code; no additional flagged bytes published. Restore this file from the recorded source SHA if ever needed."
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "diem/client-sdk-java",
+    "source_sha": "959a1dd3e1160c1b13cdda8e832befb08d1e0437",
+    "ahead_by": 0,
+    "behind_by": 0,
+    "status": "identical",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
